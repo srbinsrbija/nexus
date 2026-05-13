@@ -27,7 +27,7 @@ Interpretacija: Scatter plot korelira vlagu i temperaturu tla. Stabilni uvjeti u
 Tehnički koncept extent mapiranja korišten je za precizno preklapanje raspršenih podataka na satelitsku snimku visoke rezolucije. Definiranjem rubnih GPS granica (
 ), sustav vrši transformaciju piksela u stvarne geografske koordinate, omogućujući pouzdanu orijentaciju i izbjegavanje opasnih terenskih prepreka unutar kratera.
  ![Opis](assets/Satelistka_Karta_Jezero_crater.jpg)
-  ![Opis](assets/Jezero_Crater_Satelitska_Snimka.jpg)
+
 ## D. Komunikacijski protokol (JSON Uplink)
 Sustav automatizirano generira naloge koristeći iterativne petlje koje analiziraju filtrirane podatke, izbjegavajući rizik od ljudske pogreške pri ručnom upisu (hardcoding).
 Primjer ugniježđenog JSON niza:
