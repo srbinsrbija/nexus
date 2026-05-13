@@ -20,7 +20,7 @@ df_cisto = df[~uvjet_anomalije]
 plt.figure(figsize=(10, 6))
 sns.scatterplot(data=df_cisto, x='Temperatura', y='Vlaga', hue='Metan')
 plt.title('Odnos temperature i vlage')
-plt.savefig('graph1_temp_h2o.png')
+plt.savefig('Odnos_Temp_Vlaga.png')
 plt.close()
 
 # GRAPH 2: Heatmap dubine
