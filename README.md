@@ -1,7 +1,7 @@
 # 🚀 Izvještaj Misije Nexus: Inženjerska analiza kratera Jezero
 ## A. Izvršni sažetak (Executive Summary)
 Ova tehnička dokumentacija opisuje razvoj i implementaciju analitičkog sustava za autonomni rover u sklopu Misije Nexus. Svrha projekta je procesiranje kompleksnih senzorskih podataka prikupljenih u krateru Jezero na Marsu. Sustav koristi sirove ulazne podatke o GPS koordinatama i kemijskom sastavu tla kako bi identificirao astrobiološki značajne lokacije. Konačni cilj misije je generiranje automatiziranog navigacijskog naloga za bušenje, koji se dostavlja nadzornom poslužitelju putem strukturiranog JSON protokola, osiguravajući preciznost u robotskom istraživanju terena.
-##B. Metodologija obrade podataka (Data Wrangling)
+## B. Metodologija obrade podataka (Data Wrangling)
 Uspjeh misije ovisio je o rigoroznoj obradi podataka pomoću biblioteke Pandas. Primijenjeni su specifični logički uvjeti na DataFrame objekte kako bi se osigurala korelacija između prostornih i telemetrijskih podataka.
 Integracija podataka: Spajanje tablica mars_lokacije i mars_uzorci izvršeno je preko primarnog ključa ID_Uzorka koristeći inner join metodu.
 Uklanjanje senzorskog šuma: Identificirane su i uklonjene tri vrste anomalija:
