@@ -11,14 +11,14 @@ Kemijske pogreške: Uklanjanje negativnih pH vrijednosti koje su fizički nekonz
 Logički filtri: Izolacija uzoraka s potvrđenim prisustvom organskih molekula za daljnju prioritetnu obradu.
 ## C. Geoprostorna analiza i vizualizacija
 Vizualni dokazi ključni su za potvrdu ispravnosti modela kretanja rovera.
-1. Distribucija metana i GPS mapiranje
+### 1. Distribucija metana i GPS mapiranje
 
 Interpretacija: Grafikon prikazuje prostornu rasprostranjenost uzoraka. Koncentracija crvenih markera ukazuje na klastere metana u blizini delte, što predstavlja primarni cilj misije.
  ![Opis](assets/Prisutnost_Metana.png)
-2. Korelacija termodinamičkih parametara
+### 2. Korelacija termodinamičkih parametara
 
 Interpretacija: Scatter plot korelira vlagu i temperaturu tla. Stabilni uvjeti u donjem desnom kvadrantu koreliraju s najvišim razinama vlage, sugerirajući potencijalne podzemne rezervoare.
-3. Satelitska karta i Extent mapiranje
+### 3. Satelitska karta i Extent mapiranje
 
 Tehnički koncept extent mapiranja korišten je za precizno preklapanje raspršenih podataka na satelitsku snimku visoke rezolucije. Definiranjem rubnih GPS granica (
 
