@@ -28,7 +28,7 @@ plt.figure(figsize=(10, 6))
 
 sns.scatterplot(data=df_cisto, x='GPS_LONG', y='GPS_LAT', hue='Dubina', palette='viridis', size='Dubina')
 plt.title('Karta dubine bušenja')
-plt.savefig('graph2_heatmap_depth.png')
+plt.savefig('Karta_Dubine_Busenja.png')
 plt.close()
 
 # GRAPH 3: Očitanja metana
