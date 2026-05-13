@@ -15,19 +15,19 @@ Vizualni dokazi ključni su za potvrdu ispravnosti modela kretanja rovera.
 
 Interpretacija: Grafikon prikazuje prostornu rasprostranjenost uzoraka. Koncentracija crvenih markera ukazuje na klastere metana u blizini delte, što predstavlja primarni cilj misije.
  ![Opis](assets/Prisutnost_Metana.png)
+  ![Opis](assets/Potencijalni_Kandidati_za_Bušenje.png)
+ 
 ### 2. Korelacija termodinamičkih parametara
 
 Interpretacija: Scatter plot korelira vlagu i temperaturu tla. Stabilni uvjeti u donjem desnom kvadrantu koreliraju s najvišim razinama vlage, sugerirajući potencijalne podzemne rezervoare.
+ ![Opis](assets/Odnos_Temp_Vlaga.png)
+  ![Opis](assets/Karta_Dubine_Busenja.png)
 ### 3. Satelitska karta i Extent mapiranje
 
 Tehnički koncept extent mapiranja korišten je za precizno preklapanje raspršenih podataka na satelitsku snimku visoke rezolucije. Definiranjem rubnih GPS granica (
-
-
-
-
-
-
 ), sustav vrši transformaciju piksela u stvarne geografske koordinate, omogućujući pouzdanu orijentaciju i izbjegavanje opasnih terenskih prepreka unutar kratera.
+ ![Opis](assets/Satelistka_Karta_Jezero_crater.jpg)
+  ![Opis](assets/Jezero_Crater_Satelitska_Snimka.jpg)
 ## D. Komunikacijski protokol (JSON Uplink)
 Sustav automatizirano generira naloge koristeći iterativne petlje koje analiziraju filtrirane podatke, izbjegavajući rizik od ljudske pogreške pri ručnom upisu (hardcoding).
 Primjer ugniježđenog JSON niza:
