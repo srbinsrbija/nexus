@@ -37,7 +37,7 @@ plt.figure(figsize=(10, 6))
 sns.scatterplot(data=df_cisto, x='GPS_LONG', y='GPS_LAT', hue='Metan',
                 palette={'Pozitivno': 'red', 'Negativno': 'blue'})
 plt.title('Prisutnost metana')
-plt.savefig('graph3_methane_scatter.png')
+plt.savefig('Prisutnost_Metana.png')
 plt.close()
 
 # GRAPH 4: Kandidati (Metan + Organske molekule)
