@@ -50,7 +50,7 @@ kandidati = df_cisto[(df_cisto['Metan'] == 'Pozitivno') & (df_cisto['Organske_mo
 plt.scatter(kandidati['GPS_LONG'], kandidati['GPS_LAT'], marker='*', s=250, color='red', label='Kandidati')
 plt.legend()
 plt.title('Potencijalni kandidati za bušenje')
-plt.savefig('scatter_plot.png')
+plt.savefig('Potencijalni_Kandidati_za_Bušenje.png')
 plt.close()
 # GRAPH 5: Jezero Mission Map
 plt.figure(figsize=(12, 8))
@@ -68,7 +68,7 @@ plt.scatter(kandidati['GPS_LONG'], kandidati['GPS_LAT'], marker='*', s=300, colo
 
 plt.title('Satelitska karta kratera Jezero s lokacijama')
 plt.legend()
-plt.savefig('jezero_mission_map.jpg')
+plt.savefig('Jezero_Crater_Satelitska_Snimka.jpg')
 plt.close()
 komande_za_rover = []
 
